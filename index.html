@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head>
+        <meta charset="UTF-8">
+        <title> Login e Cadastro</title>
+        <link rel="stylesheet" href="style.css"
+
+ </head>
+
+  <body>
+    <div id="login-box">
+        <h2> Entrar </h2>
+        <form id="form-login">
+
+            <input type="text" id="login-usurio" placeholder="Usurio/CPF">
+            <input type="password" id="login-senha" placeholder="Senha">
+            <button type="submit">Entrar</button>
+            </form>
+
+            <p> Sem conta? <a href="#" id="to-cad"> Criar Conta </a></p>
+
+    </div> 
+    <div id="cad-box" class="esconde">
+        <h2> Criar Conta </h2>
+        <form id="form-cad">
+            <input type="text" id="cad-nome" placedholder="Nome Completo">
+
+            <input type="date" id="cad-cpf" placeholder="CPF">
+            
+            <input type="date" id="cad-data">
+
+            <input type="text" id="cad-tel" placeholder="Telefone">
+
+            <input type="text" id="cad-end" placedholder="Endereço">
+
+            <button type="submit"> Cadastrar </button>
+        </form>
+
+        <p> Já tem conta? <a href="#" id="to-login">Entrar</a><p>
+    </div>
+
+    <script scr="script.js"></script>
+ </body>
+</html>
